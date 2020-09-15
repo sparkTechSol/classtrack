@@ -126,10 +126,66 @@ p{
     align-items: center;
     
 }
-.sec-10-card{
+
+.sec-10-btn-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+/* section 11 */
+.sec-11-main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("/assets/images/grey-bubble-bg.png");
+    
+}
+
+.sec-11-row{
+padding-top: 50px;
+padding-bottom:50px ;
+margin-top: 70px;
+}
+.sec-11-img-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-11-img{
+    height: 25em;
+}
+
+/* section-12 */
+.sec-12-main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #8965b4;
+}
+
+
+/* section-13 */
+.sec-13-main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+/* card */
+
+.card-main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card-main{
     background-color: white !important;
     border-radius: 8px;
-    padding: 50px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 70px;
     box-shadow: -1px 22px 55px -3px rgba(209,222,255,0.63);
 }
@@ -138,20 +194,42 @@ p{
     display: flex;
     justify-content: center;
 }
-.sec-10-card-img{
+.card-img-main{
     width:4em;
-    margin-top: 30px;
     margin-bottom: 30px;
+    margin-top: 30px;
 
 }
 
-.sec-10-text{
+.card-text{
     text-align: center;
     color: #333333;
+    line-height: 2em;
 }
 
-.sec-10-btn-container{
-    margin-top: 60px;
+/* card-dark-bg */
+.card-main-dark-bg{
+    background-color: white !important;
+    border-radius: 8px;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;
+    box-shadow: 17px 27px 34px -22px rgba(20,20,20,0.43);
+}
+
+/* footer */
+.footer-main{
+    background-image: url("/assets/images/footer.png");
+    height: 641px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+/* bullet */
+ul {
+    list-style-image: url("/assets/images/bullet.png");
+    line-height: 2em;
 }
