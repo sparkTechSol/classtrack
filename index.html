@@ -11,14 +11,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <title>Class Track</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light nav-px fixed-top bg-transparent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light nav-px fixed-top bg-transparent" id="navbar">
     <a class="navbar-brand" href="#">
       <img src="/assets/images/logo.png" class="logo">
     </a>
@@ -28,13 +28,79 @@
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav align-items-center ml-auto">
-        <li class="nav-item active   mx-md-2 ">
+        <li class="nav-item active mx-md-3 header-link">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item   mx-md-2">
+        <li class="nav-item header-link  mx-md-3">
           <a class="nav-link" href="#">About</a>
         </li>
-        <li class="nav-item  mx-md-2">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="row h-50 m-0 align-items-center justify-content-center">
+            <div class="col-sm-6 mb-2"><a href="#">
+              <div class="row menu-hover-effect">
+              <div class="col-sm-3">
+                <img src="https://kissflow.com/wp-content/themes/kissflow_website/assets/images/homeicons/kflogo_icon.svg" style="width:40px;height: 40px;">
+
+              </div>
+              <div class="col-sm-9">
+                <div class="w-100">
+                  <p class="p-0 m-0">Why us</p>
+                  <small class="white-space-normal" >Lorem ipsum dolor sit amet consectetur adipisicing elit. </small>
+                </div>
+            
+              </div></div>
+             <!-- <div class="d-flex align-items-center jusitfy-content-center">
+               
+             </div> -->
+              
+            
+            </a></div>
+            <div class="col-sm-6 mb-2"><a href="#"> <div class="row menu-hover-effect">
+              <div class="col-sm-3">
+                <img src="https://kissflow.com/wp-content/themes/kissflow_website/assets/images/homeicons/kflogo_icon.svg" style="width:40px;height: 40px;">
+
+              </div>
+              <div class="col-sm-9">
+                <div class="w-100">
+                  <p class="p-0 m-0">Why us</p>
+                  <small class="white-space-normal" >Lorem ipsum dolor sit amet consectetur adipisicing elit. </small>
+                </div>
+            
+              </div></div></a></div></div>
+          <div class="row h-50 m-0 align-items-center justify-content-center">
+
+            <div class="col-sm-6 mb-2"><a href="#"> <div class="row menu-hover-effect">
+              <div class="col-sm-3">
+                <img src="https://kissflow.com/wp-content/themes/kissflow_website/assets/images/homeicons/kflogo_icon.svg" style="width:40px;height: 40px;">
+
+              </div>
+              <div class="col-sm-9">
+                <div class="w-100">
+                  <p class="p-0 m-0">Why us</p>
+                  <small class="white-space-normal" >Lorem ipsum dolor sit amet consectetur adipisicing elit. </small>
+                </div>
+            
+              </div></div></a></div>
+            <div class="col-sm-6 mb-2"><a href="#"> <div class="row menu-hover-effect">
+              <div class="col-sm-3">
+                <img src="https://kissflow.com/wp-content/themes/kissflow_website/assets/images/homeicons/kflogo_icon.svg" style="width:40px;height: 40px;">
+
+              </div>
+              <div class="col-sm-9">
+                <div class="w-100">
+                  <p class="p-0 m-0">Why us</p>
+                  <small class="white-space-normal" >Lorem ipsum dolor sit amet consectetur adipisicing elit. </small>
+                </div>
+            
+              </div></div></a></div>
+          </div>
+          </div>
+        </li>
+        <!-- <li class="nav-item  mx-md-2">
           <a class="nav-link" href="#">Why us</a>
         </li>
         <li class="nav-item mx-md-2">
@@ -45,31 +111,21 @@
         </li>
         <li class="nav-item mx-md-2">
           <a class="nav-link" href="#">Sign in</a>
-        </li>
-        <li class="nav-item mx-md-2">
+        </li> -->
+        <li class="nav-item mx-md-3">
           <a class="mb-2 p-3 btn btn-outline-dark headerbtns" href="#">Create Account</a>
         </li>
         <li class="nav-item mx-md-2">
           <a class="mb-2 p-3 btn btn-primary headerbtns" href="#">Get Started</a>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li> -->
+  
      
       </ul>
     
     </div>
   </nav>
-  
-<section class="hero-sec min-vh-100 d-flex align-items-center">
+  <!-- <hero section start></hero> -->
+<section class="hero-sec vh-100 d-flex align-items-center">
   
 <div class="container">
   <div class="row">
@@ -89,6 +145,62 @@
   </div>
 </div>
 </section>
+  <!-- <hero section end></hero> -->
+
+  <section class="vh-100 signup-sec">
+    <div class="container">
+      <div class="signup-form-cont m-sm-5">
+        <div class="signup-form btn-shadow rounded h-100">
+          <div class="row w-100 h-100 m-0">
+            <div class="col-sm-8 h-100 align-items-center">
+              <div class="col-sm-10 h-100 d-flex flex-column align-items-center justify-content-center text-center">
+                <h1 class="font-weight-bold resp-head-h1 margin-top-sm">
+                  Sign in to Classtrack
+                </h1>
+                <div class="row justify-content-center">
+                <a href="#" class="social-icons border"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="social-icons border"><i class="fa fa-google" aria-hidden="true"></i></a>
+                <a href="#" class="social-icons border "><i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                </div><br>
+                <p>Use your email account:</p>
+                <form class=" mb-4 signin-form w-75">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text text-fields border-0" id="basic-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control text-fields border-0 p-4" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                  </div>
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text text-fields border-0" id="basic-addon1"><i class="fa fa-key" aria-hidden="true"></i>
+                      </span>
+                    </div>
+                    <input type="password" class="form-control text-fields border-0 p-4" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                  </div>
+                  <a href="#"><p>Forgot your password?</p>
+                  </a>
+                  <br>
+                  <a href="#" class="btn btn-primary custom-btns-bg custom-btns border-0 font-weight-bold">SIGN IN</a>
+                </form>
+              </div>
+            </div>
+            <div class="col-sm-4 h-100 primary-bg-color text-white text-center d-flex justify-content-center align-items-center">
+              <div class="wrap px-lg-4 ">
+                <h1 class="font-weight-bold  ">
+                  Hello, Friend!
+                </h1><br>
+                <p class="mx-4">Enter your personal details and start journey with us </p><br>
+                <a class="mt-2 btn btn-outline-light custom-btns">SIGN UP</a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
