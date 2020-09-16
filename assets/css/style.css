@@ -218,6 +218,10 @@ color:black !important;
     font-weight: bold !important;
 
 }
+.sec2-card:hover{
+    transition: .2s;
+    transform: scale(1.1);
+}
 @media screen and (max-width:1024px){
     .sec2-card p{
         font-size: 11px;
