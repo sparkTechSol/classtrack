@@ -244,12 +244,19 @@ ul {
     .alternate-sec-11-row{
         flex-direction: column-reverse;
     }
+    .main-heading-white{
+        font-size: 35px;
+    }
+    .main-heading-dark{
+        font-size: 35px;
+    }
 }
-@media screen and (max-width:768px){
-.main-heading-white{
-    font-size: 35px;
-}
-.main-heading-dark{
-    font-size: 35px;
-}
+@media screen and (max-width:340px){
+    .card-main-dark-bg{
+        padding-top: 0;
+    }
+    .sec-8-card{
+        padding: 20px 0px;
+    }
+
 }
