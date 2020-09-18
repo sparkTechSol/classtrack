@@ -26,7 +26,14 @@ section{
     text-align: center;
     font-weight: bold;
 }
-
+.head-underline{
+    bottom: 3px;
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    width: 70%;
+    height: 8px;
+}
 
 .btn-purple{
     background-color: #9232ae !important;
@@ -245,12 +252,17 @@ color:black !important;
 }
 .main-heading-dark{
     font-size: 38px;
+ position: relative;
+ z-index: 999;
     font-family: 'Jost', sans-serif;
     color: #313131;
 }
 .main-heading-white{
+    z-index: 999;
     color: white;
     font-size: 48px;
+ position: relative;
+
    font-weight: bold;
 }
 .sec-long-heading-main{
@@ -286,6 +298,9 @@ color:black !important;
 @media screen and (max-width:1024px){
     .sec2-card p{
         font-size: 11px;
+    }
+    .head-underline,.sec-7-underline{
+        display: none;
     }
 }
 @media screen and (max-width: 768px) {
